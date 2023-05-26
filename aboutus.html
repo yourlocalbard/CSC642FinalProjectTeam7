@@ -2,35 +2,60 @@
 <head>
     <!--This is for the nav bar-->
     <style>
-        ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-size: 3vh;
+        background: rgb(255, 162, 191);
+        border-color: black;
+        border: 2px solid; 
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        padding: 8px;
+        background-color: #dddddd;
+      }
+      </style>
+      </head>
+      <body>
+      
+      <ul>      
+        <input type="button" class="button" value="Home" onclick="window.location.href = 'index.html'">
+        <input type="button" class="button" value="About Us" onclick="window.location.href = 'aboutus.html'">
+      </ul>
+
+      <style>
+        * {
+          box-sizing: border-box;
         }
         
-        li {
+        /* Create two equal columns that floats next to each other */
+        .column {
           float: left;
+          width: 50%;
+          padding: 10px;
+          height: 300px; /* Should be removed. Only for demonstration */
         }
         
-        li a {
-          display: block;
-          padding: 8px;
-          background-color: #dddddd;
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
         }
         </style>
-        </head>
-        <body>
-        
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="aboutus.html">About Us</a></li>
-        </ul>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>
@@ -40,10 +65,62 @@
         <b>Members: </b><br>
         Jacob Zaionz<br>
         Andy Nguyen<br>
-        Ethan Ho<br>
-        Cevat Gulec<br>
         Muhammed Nafees<br>
     </p1>
-    
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <h2>
+          <b>Cevat Gulec</b><br>
+        </h2>
+        <p1> 
+            [DESCRIPTION]  
+            <br>
+        </p1>
+        <br>
+      </div>
+      <div class="column" style="background-color:#aaa;">
+        <h2>
+          <b>Ethan Ho</b><br>
+        </h2>
+        <p1> 
+            [DESCRIPTION] 
+            <br>
+        </p1>
+        <br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <h2>
+          <b>Muhammed Nafees</b><br>
+        </h2>
+        <p1> 
+            [DESCRIPTION]  
+            <br>
+        </p1>
+        <br>
+      </div>
+      <div class="column" style="background-color:#aaa;">
+        <h2>
+          <b>Andy Nguyen</b><br>
+        </h2>
+        <p1> 
+            [DESCRIPTION] 
+            <br>
+        </p1>
+        <br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <h2>
+          <b>Jacob Zaionz</b><br>
+        </h2>
+        <p1> 
+            [DESCRIPTION]  
+            <br>
+        </p1>
+        <br>
+      </div>
 </body>
 </html>
