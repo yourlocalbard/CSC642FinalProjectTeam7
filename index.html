@@ -22,9 +22,15 @@
           padding: 8px;
           background-color: #dddddd;
         }
+
+        img {
+          vertical-align: text-top;
+        }
         </style>
         </head>
         <body>
+
+
         
         <ul>      
           <input type="button" class="button" value="Home" onclick="window.location.href = 'index.html'">
@@ -41,7 +47,7 @@
             float: left;
             width: 50%;
             padding: 10px;
-            height: 300px; /* Should be removed. Only for demonstration */
+            height: 350px; /* Should be removed. Only for demonstration */
           }
           
           /* Clear floats after the columns */
@@ -82,10 +88,10 @@
     </div>
     <div class="column" style="background-color:#aaa;">
       <h2>
-        <b>PHOTO OF LOGO</b><br>
+        <b>PHOTO OF LOGO</b>
       </h2>
       <p1> 
-          [perhaps small description or caption]  
+         <img src="photos/logo.png" alt="LOGO" height="200" width="200">  
           <br>
       </p1>
       <br>
@@ -98,10 +104,13 @@
   <div class="row">
     <div class="column" style="background-color:#aaa;">
       <h2>
-        <b>The Wireframes</b><br>
+        <b>Initial Wireframes</b><br>
       </h2>
       <p1> 
-          See if you can insert the wireframe photo into the section  
+          
+          <img src="photos/InitialWireframe.png" alt="INITIALWIREFRAME" height="200" width="400">
+          <br>
+
           <br>
       </p1>
       <br>
@@ -114,6 +123,7 @@
         <b>Follow Our Flavor Story: The Design Process</b><br>
       </h2>
       <p1> 
+        <b>The Big Idea</b><br>
           With the goal of providing an efficient, yet fun design, our group had to go through several drafts of layouts before we picked our final result. 
           Flavor Finder once started off as a simple wireframe, which slowly evolved to become the project that we have today. 
           <br>
@@ -121,14 +131,55 @@
       <br>
       <p2>
           <b>First Draft Wireframing</b><br>
-          
+          When creating the initial wireframing, we had to put together some of the basics of each website; 
+          between login capabilities, registration, and a home page, all of the basics were there. 
+          We then had to incorporate specialized features for our application, such as a search menu for the recipe options
+          and the recipe examples page. <br>          
+          <br>
+          We also incorporated a database functionality that would allow the users to store information such as reviews about their previous 
+          recipes, user preferences about the suggested recipes, and information that the user consents to giving such as email and password for their 
+          login info.
           <br>
       </p2>
     </div>
     
   </div>
 
-  
-  
+  <div class="row">
+    <div class="column" style="background-color:#aaa;">
+      <h2>
+        <b>Final Wireframes</b><br>
+      </h2>
+      <p1>
+          <img src="photos/FinalWireframe.png" alt="INITIALWIREFRAME" height="200" width="400">
+          <br>
+
+          <br>
+      </p1>
+      <br>
+      <p2>
+          <br>
+      </p2>
+    </div>
+    <div class="column" style="background-color:#aaa;">
+      <h2>
+        <b>Reviews: Heuristic Evaluation and User Review</b><br>
+      </h2>
+      <p1> 
+        <b>Heuristic Evaluation</b><br>
+          During our Heuristic Evaluation, we caught a number of aesthetic issues that would also lead to usability problems. Some of these issues included misplaced buttons, 
+          plain coloring, and some functionalities that weren't very intuitive for the user. We fixed these issues and followed up by having a few people 
+          test out our application. 
+          <br>
+          <br>
+          <b>User Reports</b><br>
+          Our users reported back some minor confusion in regards to the design, such as asking about where certain buttons would go and how the favorites 
+          feature works. We redesigned some of the formatting of the design, which allowed users to have a smoother and more accessible experience. 
+          <br>
+      </p1>
+      <br>
+    </div>
+    
+  </div>  
 </body>
 </html>
