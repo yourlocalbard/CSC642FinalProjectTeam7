@@ -26,6 +26,27 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="aboutus.html">About Us</a></li>
         </ul>
+
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+          
+          /* Create two equal columns that floats next to each other */
+          .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 300px; /* Should be removed. Only for demonstration */
+          }
+          
+          /* Clear floats after the columns */
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,15 +54,64 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>
-        Team 7
-    </h1>
-    <p1> 
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quidem, ducimus esse ab dolorum harum expedita minima mollitia repellendus vel soluta aperiam. Harum qui necessitatibus ex, ipsam cum unde ad!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nihil dicta aut molestiae error eos saepe veniam perferendis. Id ipsam odit sint doloremque ex voluptas at sit assumenda necessitatibus quos.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, nam ad ipsam sed neque autem. Earum esse dignissimos praesentium unde iusto natus obcaecati beatae neque, alias tempore, modi, corporis mollitia!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil explicabo in at voluptates qui similique alias harum eligendi, praesentium maxime eaque, enim nostrum blanditiis reprehenderit. Quibusdam voluptate exercitationem aut recusandae.
-    </p1>
+  <h1>
+    Team 7 Presents: Flavor Finder
+  </h1> 
+  
+  <div class="row">
+    <div class="column" style="background-color:#aaa;">
+      <h2>
+        <b>What is Flavor Finder?</b><br>
+      </h2>
+      <p1> 
+          Flavor Finder is more than a cooking application; it's the response of five students who were charged to find a solution to a real problem in their lives. 
+          During our first meeting, we sat down trying to come up with ideas. 
+          It was when one of our members mentioned that he was cooking during the lecture that we realized how little time most students have to cook. 
+          Furthermore, not many students are willing to take the time to learn how to cook, even though it's a useful skill, because it seems more immediately convenient to purchase fast food.<br>
+      </p1>
+      <br>
+      <p2>
+          Thus, the idea behind Flavor Finder was born; the mission was to create simple and affordable recipes based on what the users were interested in.
+          We took several factors into consideration such as cultural preferences, affordability, and accessibility when curating our lists of recipes.
+          <br>
+        </p2>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div class="column" style="background-color:#aaa;">
+      <h2>
+        <b>The Design Process</b><br>
+      </h2>
+      <p1> 
+          Much like every design process, our application went through several revisions before eventually getting it correct. 
+          <br>
+      </p1>
+      <br>
+      <p2>
+          I'm screaming and crying over this bullshit
+          <br>
+      </p2>
+    </div>
+    <div class="column" style="background-color:#aaa;">
+      <h2>
+        <b>The Final Design</b><br>
+      </h2>
+      <p1> 
+          Much like every design process, our application went through several revisions before eventually getting it correct.  
+          <br>
+      </p1>
+      <br>
+      <p2>
+          <br>
+      </p2>
+    </div>
     
+  </div>
+
+  
+  
 </body>
 </html>
